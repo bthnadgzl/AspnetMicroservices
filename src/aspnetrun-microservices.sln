@@ -7,6 +7,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{EA720241-1617-4163-9869-910B1AF70429}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11341CD7-FF18-4775-8BFC-0735EB309B76}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{2E1D0B67-1691-4B61-A318-07FC7A8E77DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket.API\Basket.API.csproj", "{BA4DF4E5-0575-476B-9CCA-4C522584610B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,11 +23,18 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E649656A-22F6-444B-97EC-B5037133C942} = {7642A996-958B-4F5A-98A3-92B71F3FF39F}
 		{EA720241-1617-4163-9869-910B1AF70429} = {E649656A-22F6-444B-97EC-B5037133C942}
+		{2E1D0B67-1691-4B61-A318-07FC7A8E77DB} = {7642A996-958B-4F5A-98A3-92B71F3FF39F}
+		{BA4DF4E5-0575-476B-9CCA-4C522584610B} = {2E1D0B67-1691-4B61-A318-07FC7A8E77DB}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EA720241-1617-4163-9869-910B1AF70429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA720241-1617-4163-9869-910B1AF70429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA720241-1617-4163-9869-910B1AF70429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA720241-1617-4163-9869-910B1AF70429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA720241-1617-4163-9869-910B1AF70429}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA4DF4E5-0575-476B-9CCA-4C522584610B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4DF4E5-0575-476B-9CCA-4C522584610B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4DF4E5-0575-476B-9CCA-4C522584610B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4DF4E5-0575-476B-9CCA-4C522584610B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
